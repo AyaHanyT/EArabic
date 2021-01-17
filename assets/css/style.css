@@ -44,11 +44,11 @@ a{
   .IMG-1 {
     position: absolute;
     TOP:115px; 
-    left: 8%; 
+    left: 7%; 
    }
    .IMG-2{
      position: absolute;
-     top:330px;
+     top:350px;
      right: 8%;
    }
    .IMG-3{
@@ -228,7 +228,6 @@ margin: 0 auto;
   position: relative;
   white-space: nowrap;
   float: left;
-  
 }
 
 .nav-menu a {
@@ -774,7 +773,7 @@ font-family: "Poppins", sans-serif;
      z-index:2;
      position:absolute; 
      TOP:130px; 
-     LEFT: 9%px; 
+     LEFT: 5%px; 
      width:82%;
     }
     .hide{
