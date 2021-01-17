@@ -10,7 +10,6 @@
 	url("fonts/elmessiri-bold-webfont.woff") format("woff");
 }
 html{
-	  overflow: auto; /* Enable scroll if needed */
 }
 body {
     background-color:#f5f8fa;
