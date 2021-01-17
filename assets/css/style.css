@@ -773,8 +773,8 @@ font-family: "Poppins", sans-serif;
      z-index:2;
      position:absolute; 
      TOP:130px; 
-     width:82%;
-	left:9%;
+     width:90%;
+     left:10%;
     }
     .hide{
       display: none;
