@@ -774,6 +774,7 @@ font-family: "Poppins", sans-serif;
      position:absolute; 
      TOP:130px; 
      width:82%;
+	left:9%;
     }
     .hide{
       display: none;
