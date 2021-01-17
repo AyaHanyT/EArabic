@@ -9,7 +9,9 @@
 	src:url("fonts/elmessiri-bold-webfont.woff2") format("woff2"),
 	url("fonts/elmessiri-bold-webfont.woff") format("woff");
 }
-
+html{
+	  overflow: auto; /* Enable scroll if needed */
+}
 body {
     background-color:#f5f8fa;
     overflow: auto; /* Enable scroll if needed */
@@ -62,6 +64,7 @@ a{
     padding-right: 15%;
     padding-left: 15%;
     padding-top:50px;
+
   }
   .left-about-english{
     border-right-style:solid;
@@ -778,6 +781,7 @@ font-family: "Poppins", sans-serif;
      TOP:130px; 
      LEFT:135px; 
      width:82%;
+     overflow: auto; /* Enable scroll if needed */
     }
     .hide{
       display: none;
@@ -796,6 +800,7 @@ font-family: "Poppins", sans-serif;
     display: inline block;
     padding: 2px;
     box-shadow: none;   
+    overflow: auto; /* Enable scroll if needed */
   }
   .IMG-3{display: none;}
  }
