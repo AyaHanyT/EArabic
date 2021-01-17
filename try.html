@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>e.Arabic</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
+  <link rel="stylesheet" href="assets/css/style.css">                                          <!-- Templatemo style -->
+
+  <link rel="shortcut icon" href="assets/img/camel.png">
+
+</head>
+  <body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center header-transparent" style="background-color: white;">
+    <div class="container d-flex align-items-center">
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html"><img src="assets/img/logo.svg"></a></h1>
+         </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="Become-a-teacher.html" style="position: relative; top: 10px">Become a Teacher</a></li>
+          <li><a href="About.html" style="position: relative ;top: 10px">About</a></li>
+          <li><a href="contact-us.html" style="position: relative ;top: 10px">Contact us</a></li>
+          <li><a onclick="document.getElementById('SignUp').style.display='block' ; document.getElementsByClassName('mobile-nav').style.display='none'" style="position: relative ;top: 10px">Sign up </a></li>
+          <li><a><button type="button" class="btn">Free Lesson</button></a></li>
+      </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+  <div class="About-container">
+    <div class="container text-center tm-welcome-container">
+    <div class="tm-welcome">
+      <h4>About us</h4>
+    </div>
+</div>
+<img src="assets/img/Texture Dots.svg" class="IMG-1">
+<img src="assets/img/Texture Waves.svg" class="IMG-2">
+
+
+
+<div id="SignUp" class="SModal">
+  <form class="Second-modal-content" action="/action_page.php">
+    <span onclick="document.getElementById('SignUp').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+    <div class="container">
+
+        <h4 class="text-center modal-title">Sign Up</h4>
+
+        <div id="sign-up">
+            <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=617449125983-9sqajtl2v2el3eildinpgddjt5tikp4l.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.earabic.io%2Fgoogle%2Foauth%2Fstudents&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=force&include_granted_scopes=true&flowName=GeneralOAuthFlow"> 
+              <button class="btn-G"> Google
+                <img src="assets/img/G.png" style="width: 17px; height: 17px;">
+              </button>
+            </a>
+            <a href="https://www.facebook.com/v3.3/dialog/oauth?client_id=2642419112689893&redirect_uri=https%3A%2F%2Fwww.earabic.io%2Flogin%2Ffacebook%2Fcallback&scope=email&response_type=code&state=1PRtDlRhOcMMHl8tURiUYrIBfLkbon2qHQG4IAh4">
+              <button class="btn-G"> Facebook
+                <img src="assets/img/Fb.png" style="width: 17px; height: 17px;">
+              </button>
+            </a>
+          </div>
+
+          <p id="or">or</p>
+        <div class="modal-body">
+          <form method="get" action="#">
+            <div class="form-group">
+              <input type="text" class="form-control" id="UserName" placeholder="Name " name="name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Email " name="email" required>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="password" placeholder="Password" required>
+            </div>
+               
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+             Remember me 
+
+            <p>Your password must be at least 6 characters long and must contain letters, numbers and special characters. Cannot contain whitespace.            </p>
+
+            <button type="submit" class="btn-2">Submit</button>
+            <br>
+            <br>
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            <div class="clearfix">
+                <a onclick="document.getElementById('SignUp').style.display='none'" class="cancelbtn" style="color:dodgerblue">Cancel?</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('SignUp');
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+  
+
+
+
+
+
+
+
+
+
+
+
+    <!-- load JS -->
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
+  <script src="js/bootstrap.min.js"></script>         <!-- https://getbootstrap.com/ -->
+  </body>
+</html>
