@@ -14,11 +14,6 @@ body {
     background-color:#f5f8fa;
     overflow: auto; /* Enable scroll if needed */
 }
-footer
-{
-  position: fixed;
-  width: 100%;
-}
 a{
   cursor: pointer;
 }
@@ -860,11 +855,7 @@ font-family: "Poppins", sans-serif;
   padding-left: 49%;
   font-size: 13px;
 }
-@media screen and (max-width: 900px) {
-  #sign-up .btn-G{ width: 95%; }
-  #sign-up{padding: 10px;}
-  #or{font-size: 7px;}
-}
+
 .SModal{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -895,4 +886,14 @@ font-family: "Poppins", sans-serif;
   box-shadow: -3px 3px rgba(128, 128, 128, 0.288);
   overflow: auto;
   font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #sign-up .btn-G{ width: 95%; }
+  #sign-up{padding: 10px;}
+  #or{font-size: 7px;}
+.Second-modal-content {
+	width : 90%;
+	right: 5%;
+	}
 }
